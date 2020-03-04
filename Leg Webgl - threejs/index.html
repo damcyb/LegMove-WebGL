@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Leg</title>
+		<style>
+			body {
+				background-color: #000;
+				font-family: Helvetica;
+				position: relative; top: -100px;
+				line-height: 26px;
+				margin: 0px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="../Leg Webgl - threejs/lib/three.min3.js"></script>
+		<script src="../Leg Webgl - threejs/lib/webgl.js"></script>
+		<script src="../Leg Webgl - threejs/lib/OrbitControls.js"></script>
+		<script src="../Leg Webgl - threejs/lib/OBJLoader.js"></script>
+		<script src="../Leg Webgl - threejs/lib/MTLLoader.js"></script>
+		<script src="scripts.js"></script>	
+		<link rel="stylesheet" href="../Leg Webgl - threejs/css/style.css" media="screen">
+		
+		<div class="controls">
+			<div id="barWidth" class="progress-bar">
+				<div class="tooltip-con">
+					<span id="tipTime" class="tipTime">0:00</span></div>
+				<div id="bar" class="progress-value"></div></div>
+			<div class = "buttons">
+				<button id = "startButtonId"></button></div>
+			<div class = "reset">
+				<button id = "resetButtonId"></button></div>
+			<span id = "currentTime" class="varTime">0:00</span>
+			<span id = "slash" class="backslash">/</span>
+			<span id = "fullDuration" class="fullTime">0:00</span>
+		</div>
+		
+	</body>
+</html>
